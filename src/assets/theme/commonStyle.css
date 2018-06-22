@@ -1,0 +1,65 @@
+html,body, #app{
+  margin:0;
+  height:100%;
+  overflow:hidden;
+}
+body{
+  color:white;
+}
+#header{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:60px;
+  background:#222;
+}
+#navs{
+  position:absolute;
+  left:0;
+  top:60px;
+  bottom:50px;
+  width:200px;
+  background:red;
+  overflow: auto;
+}
+#container{
+  position:absolute;
+  left:200px;
+  top:60px;
+  bottom:50px;
+  right:0;
+  padding: 20px;
+  background:pink;
+  overflow: auto;
+}
+Container>router-view{
+  min-height: 700px;
+}
+#footer{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:50px;
+  background: #222;
+}
+.create{
+  background: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #999;
+  margin-bottom: 20px;
+}
+.title{
+  font-size: 24px;
+  color: #222222;
+  line-height:50px;
+  margin: 10px;
+}
+.createButton{
+  margin: 10px;
+  float: right;
+}
+.questionTip{
+  color: #bbb;
+}
